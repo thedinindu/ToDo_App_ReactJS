@@ -1,0 +1,34 @@
+.todos {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list__contents {
+    margin-bottom: -25px;
+}
+
+
+.list__buttons {/*Can also be `fixed`*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #B3B3B3;
+    
+}
+
+.list__buttons .edit__button {
+    margin-right: 10px;
+}
+
+.list__buttons .edit__button:hover,
+.list__buttons .delete__button:hover {
+    transition: 0.3s;
+    color: #3F51B5;
+}
